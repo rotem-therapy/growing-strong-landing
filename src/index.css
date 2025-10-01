@@ -8,50 +8,59 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 35 40% 98%;
+    --foreground: 200 25% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 200 25% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 200 25% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 180 45% 55%;
+    --primary-foreground: 0 0% 100%;
+    
+    --primary-soft: 180 50% 92%;
+    --primary-glow: 180 60% 70%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 150 40% 75%;
+    --secondary-foreground: 150 50% 20%;
+    
+    --accent: 45 90% 75%;
+    --accent-foreground: 45 60% 25%;
+    
+    --soft-pink: 340 60% 92%;
+    --soft-yellow: 45 100% 95%;
+    --soft-mint: 150 50% 95%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 180 30% 96%;
+    --muted-foreground: 200 15% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --border: 180 25% 90%;
+    --input: 180 25% 90%;
+    --ring: 180 45% 55%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --radius: 1rem;
+    
+    --gradient-warm: linear-gradient(135deg, hsl(var(--soft-yellow)), hsl(var(--soft-pink)));
+    --gradient-cool: linear-gradient(135deg, hsl(var(--primary-soft)), hsl(var(--soft-mint)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-soft)) 0%, hsl(var(--soft-mint)) 50%, hsl(var(--soft-yellow)) 100%);
+    
+    --shadow-soft: 0 10px 40px -10px hsl(var(--primary) / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.1);
+    
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -101,5 +110,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    direction: rtl;
+  }
+  
+  html {
+    scroll-behavior: smooth;
   }
 }
