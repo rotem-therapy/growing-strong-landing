@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="container relative z-10 mx-auto px-4 py-20">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            טיפול רגשי ל<br />
+            טיפול רגשי<br />
             ילדים, נוער ומבוגרים
           </h1>
           <div className="text-xl mb-12 text-foreground/70 max-w-2xl mx-auto italic">
