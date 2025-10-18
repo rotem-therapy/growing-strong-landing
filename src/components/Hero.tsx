@@ -23,9 +23,14 @@ const Hero = () => {
             טיפול רגשי ל<br />
             ילדים, נוער ומבוגרים
           </h1>
-          <p className="text-xl mb-12 text-foreground/70 max-w-2xl mx-auto">
-            ליווי אישי, חם ומקצועי לילדים, נוער ומשפחות במסע של צמיחה רגשית והתפתחות אישית
-          </p>
+          <div className="text-xl mb-12 text-foreground/70 max-w-2xl mx-auto italic">
+            <p className="mb-2">
+              ״לראות עולם בגרגר של חול ורקיע בפרח השדה,<br />
+              להחזיק את האינסוף בכף יד,<br />
+              ונצח בשעה יחידה״
+            </p>
+            <p className="text-base">ויליאם בלייק</p>
+          </div>
           <Button
             size="lg"
             onClick={scrollToContact}
