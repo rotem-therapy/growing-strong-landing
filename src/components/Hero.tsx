@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+בimport { Button } from "@/components/ui/button";
 import heroImage from "@/assets/therapy-room.jpg";
 
 const Hero = () => {
@@ -25,8 +25,11 @@ const Hero = () => {
           </h1>
           <div className="text-xl mb-12 text-foreground/70 max-w-2xl mx-auto italic">
             <p className="mb-2">
-              ״לראות עולם בגרגר של חול ורקיע בפרח השדה, להחזיק את האינסוף בכף יד,<br />
-              ונצח בשעה יחידה״
+              <br />
+              ״לראות עולם בגרגר של חול ורקיע בפרח השדה,
+להחזיק את האינסוף בכף יד,
+ונצח בשעה יחידה
+״
             </p>
             <p className="text-base">ויליאם בלייק</p>
           </div>
