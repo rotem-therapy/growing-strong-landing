@@ -31,7 +31,7 @@ const Contact = () => {
       
       const message = `שלום, אני ${formData.parentName}. הילד/ה שלי בגיל ${formData.childAge}. ${formData.reason}`;
       const encodedMessage = encodeURIComponent(message);
-      const whatsappUrl = `https://wa.me/9720501234567?text=${encodedMessage}`;
+      const whatsappUrl = `https://wa.me/9720507557377?text=${encodedMessage}`;
       
       window.open(whatsappUrl, "_blank");
       
@@ -111,7 +111,7 @@ const Contact = () => {
                         name="contact"
                         value={formData.contact}
                         onChange={handleChange}
-                        placeholder="050-1234567 או email@example.com"
+                        placeholder="050-1234567 או contact@email.com"
                         required
                         maxLength={255}
                       />
@@ -132,7 +132,7 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-primary flex-shrink-0" />
                     <div>
                       <h4 className="font-bold mb-2">טלפון</h4>
-                      <p className="text-foreground/70">050-1234567</p>
+                      <p className="text-foreground/70">050-7557377</p>
                     </div>
                   </div>
                 </CardContent>
@@ -144,7 +144,7 @@ const Contact = () => {
                     <Mail className="w-6 h-6 text-primary flex-shrink-0" />
                     <div>
                       <h4 className="font-bold mb-2">אימייל</h4>
-                      <p className="text-foreground/70">contact@childtherapy.com</p>
+                      <p className="text-foreground/70">rotemshkedi@gmail.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -156,7 +156,7 @@ const Contact = () => {
                     <MapPin className="w-6 h-6 text-primary flex-shrink-0" />
                     <div>
                       <h4 className="font-bold mb-2">כתובת</h4>
-                      <p className="text-foreground/70">רחוב הפרחים 12, תל אביב</p>
+                      <p className="text-foreground/70">הכרמל 1, אור-עקיבא (מרכז דוד)</p>
                     </div>
                   </div>
                 </CardContent>

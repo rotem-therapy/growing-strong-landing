@@ -1,4 +1,6 @@
-import therapistImage from "@/assets/therapist-portrait.jpg";
+// import therapistImage from "@/assets/therapist-portrait.jpg";
+// import therapistImage from "@/assets/rotem-portrate.png";
+import therapistImage from "@/assets/rotem-portrate-crop.png";
 
 const About = () => {
   return (
@@ -18,7 +20,7 @@ const About = () => {
               <h2 className="text-4xl font-bold mb-6">מי אני</h2>
               <div className="space-y-4 text-lg text-foreground/80">
                 <p>
-                אני <span className="font-semibold text-primary">רותם מרצאינו שקדי</span>, מטפלת רגשית מזה שנים רבות במגזר הציבורי והפרטי.
+                 <span className="font-semibold text-primary">רותם מרציאנו שקדי</span>, מטפלת רגשית מזה שנים רבות במגזר הציבורי והפרטי.
                 </p>
                 <p>
                 אני מלווה ילדים, מתבגרים ומבוגרים בתהליכים טיפוליים שמאפשרים תהליכי החלמה, צמיחה וחיזוק תחושת הערך והאמונה בעצמם.
@@ -27,19 +29,12 @@ const About = () => {
                 אני מאמינה כי <span className="font-medium text-secondary">קשר טיפולי חם ומכיל</span> מאפשר מפגש מעמיק עם עצמך והתמודדות עם כאב וקשיים בדרך לריפוי וצמיחה.
                 </p>
                 
-                <div className="bg-card rounded-2xl p-6 shadow-card my-6">
-                  <h3 className="font-bold text-xl mb-3">תעודות והסמכות</h3>
-                  <p>
-                    בוגרת תואר ראשון ושני בפסיכולוגיה, מוסמכת בטיפול CBT וגישות אינטגרטיביות.
-                  </p>
-                </div>
-                
-                <div className="bg-card rounded-2xl p-6 shadow-card">
-                  <h3 className="font-bold text-xl mb-3">סגנון טיפול</h3>
-                  <p>
-                    אישי, חם, מותאם לילד ולנוער, תוך יצירת קשר אמיתי ובטוח.
-                  </p>
-                </div>
+                {/*<div className="bg-card rounded-2xl p-6 shadow-card">*/}
+                {/*  <h3 className="font-bold text-xl mb-3">סגנון טיפול</h3>*/}
+                {/*  <p>*/}
+                {/*    אישי, חם, מותאם לילד ולנוער, תוך יצירת קשר אמיתי ובטוח.*/}
+                {/*  </p>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>
