@@ -25,8 +25,7 @@ const Hero = () => {
           </h1>
           <div className="text-xl mb-12 text-foreground/70 max-w-2xl mx-auto italic">
             <p className="mb-2">
-              ״לראות עולם בגרגר של חול ורקיע בפרח השדה,<br />
-              להחזיק את האינסוף בכף יד,<br />
+              ״לראות עולם בגרגר של חול ורקיע בפרח השדה, להחזיק את האינסוף בכף יד,<br />
               ונצח בשעה יחידה״
             </p>
             <p className="text-base">ויליאם בלייק</p>
