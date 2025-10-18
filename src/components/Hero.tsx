@@ -1,4 +1,4 @@
-בimport { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/therapy-room.jpg";
 
 const Hero = () => {
