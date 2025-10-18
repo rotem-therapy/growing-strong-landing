@@ -7,9 +7,9 @@ const Footer = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">טיפול רגשי לילדים ונוער</h3>
+              <h3 className="text-xl font-bold mb-4">טיפול רגשי לילדים, נוער ומבוגרים</h3>
               <p className="opacity-90">
-                ליווי מקצועי ואישי לילדים, נוער ומשפחות במסע של צמיחה רגשית
+                ליווי מקצועי ואישי לילדים, נוער, מבוגרים ומשפחות במסע של צמיחה רגשית
               </p>
             </div>
             
@@ -22,7 +22,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#services" className="hover:opacity-70 transition-opacity">
+                  <a href="#forWhom" className="hover:opacity-70 transition-opacity">
                     שירותים
                   </a>
                 </li>
@@ -37,9 +37,9 @@ const Footer = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">יצירת קשר</h3>
               <ul className="space-y-2 opacity-90">
-                <li>טלפון: 050-1234567</li>
-                <li>אימייל: contact@childtherapy.com</li>
-                <li>כתובת: רחוב הפרחים 12, תל אביב</li>
+                <li>טלפון: 050-7557377</li>
+                <li>אימייל: rotemshkedi@gmail.com</li>
+                <li>כתובת: הכרמל 1, אור-עקיבא (מרכז דוד)</li>
               </ul>
             </div>
           </div>
