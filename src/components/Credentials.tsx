@@ -6,26 +6,31 @@ const credentials = [
         icon: GraduationCap,
         title: "תואר ראשון ושני",
         description: "בעבודה סוציאלית קלינית",
+        color: "bg-primary-soft",
     },
     {
         icon: Award,
         title: "הכשרה מתקדמת",
-        description: "בפסיכותרפיה דינמית",
+        description: "**בפסיכותרפיה דינמית",
+        color: "bg-primary-soft",
     },
     {
         icon: Target,
         title: "התמחות",
         description: "בטיפול בילד ובמתבגר",
+        color: "bg-primary-soft",
     },
     {
         icon: Stethoscope,
         title: "ניסיון מקצועי",
         description: "בטיפול באוטיזם, טראומה ובמצבי משבר",
+        color: "bg-primary-soft",
     },
     {
         icon: UsersIcon,
         title: "רכזת תחום רגשי",
         description: "במרכז לגיל הרך",
+        color: "bg-primary-soft",
     },
 ];
 
@@ -38,7 +43,7 @@ const Credentials = () => {
             רקע מקצועי והכשרה
     </h2>
     <p className="text-lg text-muted-foreground">
-        ניסיון והכשרה מקצועית רחבה בתחום הטיפול הרגשי
+        ניסיון והכשרה מקצועית רחבה בתחום הטיפול בילדים ונוער
     </p>
     </div>
 
@@ -51,8 +56,8 @@ const Credentials = () => {
                 className="p-6 text-center hover:shadow-[var(--shadow-hover)] transition-all duration-300 hover:scale-105 bg-card border-none"
                 >
                 <div className="flex flex-col items-center gap-4">
-                <div className="p-4 bg-primary/10 rounded-2xl">
-                <Icon className="w-10 h-10 text-primary" />
+                <div className={`p-4 bg-primary/10 rounded-2xl ${credential.color}`}>
+                    <Icon className="w-10 h-10 text-primary"  />
                 </div>
                 <div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">
@@ -71,7 +76,7 @@ const Credentials = () => {
     {/* Trust indicators */}
     <div className="mt-12 text-center">
     <p className="text-lg text-muted-foreground italic">
-        עובדת במגזר הציבורי והפרטי מזה שנים רבות
+        ** בתהליך הכשרה בתוכנית התלת שנתית לפסיכותרפיה דינמית ׳אלומות׳- ביה״ח שלוותא
     </p>
     </div>
     </div>

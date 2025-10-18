@@ -23,7 +23,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#forWhom" className="hover:opacity-70 transition-opacity">
-                    שירותים
+                    למי זה מתאים?
                   </a>
                 </li>
                 <li>
@@ -38,7 +38,12 @@ const Footer = () => {
               <h3 className="text-xl font-bold mb-4">יצירת קשר</h3>
               <ul className="space-y-2 opacity-90">
                 <li>טלפון: 050-7557377</li>
-                <li>אימייל: rotemshkedi@gmail.com</li>
+                  <li>
+                      אימייל{': '}
+                      <a href="mailto:rotemshkedi@gmail.com" className="underline hover:text-secondary">
+                          rotemshkedi@gmail.com
+                      </a>
+                  </li>
                 <li>כתובת: הכרמל 1, אור-עקיבא (מרכז דוד)</li>
               </ul>
             </div>

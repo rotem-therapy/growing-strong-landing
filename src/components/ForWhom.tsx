@@ -10,7 +10,7 @@ const forWhom = [
     {
         icon: MessageCircle,
         title: "אוטיזם ולקויות הפתחותיות",
-        color: "bg-soft-pink",
+        color: "bg-indigo-100",
     },
     {
         icon: Users,
@@ -21,18 +21,18 @@ const forWhom = [
     {
         icon: Sparkles,
         title: "דימוי עצמי נמוך וחוסר ביטחון",
-        color: "bg-primary-soft",
+        color: "bg-soft-pink",
     },
 
     {
         icon: Heart,
         title: "מצבי משבר, טראומה או אובדן",
-        color: "bg-soft-pink",
+        color: "bg-soft-green",
     },
     {
         icon: Home,
         title: "קשיים ביחסים המשפחתיים",
-        color: "bg-soft-pink",
+        color: "bg-teal-100",
     },
 ];
 
@@ -57,7 +57,8 @@ const ForWhom = () => {
 
                             >
                                 {/*<CardHeader>*/}
-                                <div className="flex items-start gap-4">
+                                {/*<div className="flex items-start gap-4 justify-center">*/}
+                                <div className="flex items-center  gap-4 justify-center">
                                     {/*<div className={`w-16 h-16 ${service.color} rounded-2xl flex items-center justify-center mb-4`}>*/}
                                     {/*  <service.icon className="w-8 h-8 text-foreground" />*/}
                                     {/*</div>*/}

@@ -65,7 +65,7 @@ const Contact = () => {
                   <h3 className="text-2xl font-bold mb-6">קבעו פגישה</h3>
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                      <Label htmlFor="parentName">שם ההורה</Label>
+                      <Label htmlFor="parentName">שם</Label>
                       <Input
                         id="parentName"
                         name="parentName"
@@ -78,14 +78,13 @@ const Contact = () => {
                     </div>
                     
                     <div>
-                      <Label htmlFor="childAge">גיל הילד/ה</Label>
+                      <Label htmlFor="childAge">גיל</Label>
                       <Input
                         id="childAge"
                         name="childAge"
                         value={formData.childAge}
                         onChange={handleChange}
                         placeholder="למשל: 8"
-                        required
                         maxLength={20}
                       />
                     </div>
@@ -144,7 +143,11 @@ const Contact = () => {
                     <Mail className="w-6 h-6 text-primary flex-shrink-0" />
                     <div>
                       <h4 className="font-bold mb-2">אימייל</h4>
-                      <p className="text-foreground/70">rotemshkedi@gmail.com</p>
+                      <p className="text-foreground/70">
+                          <a href="mailto:rotemshkedi@gmail.com" className="underline hover:text-primary">
+                              rotemshkedi@gmail.com
+                          </a>
+                      </p>
                     </div>
                   </div>
                 </CardContent>

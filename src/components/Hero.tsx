@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/therapy-room.jpg";
+import { Share2 } from "lucide-react";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -28,18 +29,39 @@ const Hero = () => {
               <br />
               ״לראות עולם בגרגר של חול ורקיע בפרח השדה,
 להחזיק את האינסוף בכף יד,
-ונצח בשעה יחידה
-״
+ונצח בשעה יחידה״
             </p>
             <p className="text-base">ויליאם בלייק</p>
           </div>
-          <Button
+            <div className="flex justify-center gap-4">
+
+            <Button
             size="lg"
             onClick={scrollToContact}
             className="text-lg px-8 py-6 shadow-soft hover:shadow-lg transition-all duration-300 hover:scale-105"
           >
             קבעו פגישה עכשיו
           </Button>
+            <Button
+                size="lg"
+                // variant="outline"
+                className="text-lg px-8 py-6 shadow-soft hover:shadow-lg transition-all duration-300 hover:scale-105"
+
+                // className="text-lg px-8 py-6 flex items-center gap-2"
+                onClick={() => {
+                    if (navigator.share) {
+                        navigator.share({
+                            title: document.title,
+                            url: window.location.href,
+                        });
+                    } else {
+                        window.alert("Sharing is not supported in this browser.");
+                    }
+                }}
+            >
+                <Share2 className="w-5 h-5" />
+            </Button>
+            </div>
         </div>
       </div>
     </section>

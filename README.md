@@ -64,7 +64,8 @@ This project is built with:
 
 Simply open [Lovable](https://lovable.dev/projects/72b55837-1d1d-4cf6-9ddd-bb4fca77856c) and click on Share -> Publish.
 ```sh
-npm install --save-dev gh-pages
+#npm install --save-dev gh-pages
+npm run build 
 npx gh-pages -d dist
 ```
 
