@@ -1,30 +1,36 @@
-import { Heart, Users, Home, Sparkles } from "lucide-react";
+import { Heart, Users, Home, Sparkles, CloudRain, MessageCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
   {
-    icon: Heart,
-    title: "טיפול פרטני לילדים",
-    description: "ליווי רגשי אישי לילדים בגילאי 4-12, באמצעות משחק, יצירה ושיחה",
-    color: "bg-soft-pink",
-  },
-  {
-    icon: Sparkles,
-    title: "טיפול פרטני לנוער",
-    description: "תמיכה והכוונה לנוער בגילאי 13-18, התמודדות עם אתגרים רגשיים וחברתיים",
-    color: "bg-primary-soft",
+    icon: CloudRain,
+    title: "חרדה, דיכאון או מצבי משבר",
+    color: "bg-soft-yellow",
   },
   {
     icon: Users,
-    title: "טיפול משפחתי",
-    description: "ליווי משפחות בתהליכים של שיפור תקשורת וחיזוק הקשר המשפחתי",
+    title: "קשיים רגשיים או חברתיים",
     color: "bg-soft-mint",
   },
   {
+    icon: Sparkles,
+    title: "דימוי עצמי נמוך וחוסר ביטחון",
+    color: "bg-primary-soft",
+  },
+  {
+    icon: MessageCircle,
+    title: "קשיי תקשורת או קשב וריכוז",
+    color: "bg-soft-pink",
+  },
+  {
+    icon: Heart,
+    title: "טראומה, אובדן, או אבל",
+    color: "bg-soft-pink",
+  },
+  {
     icon: Home,
-    title: "הדרכת הורים",
-    description: "כלים והכוונה להורים כיצד לתמוך בילדים בבית ולהתמודד עם אתגרים",
-    color: "bg-soft-yellow",
+    title: "קשיים ביחסים משפחתיים",
+    color: "bg-soft-pink",
   },
 ];
 
@@ -34,9 +40,9 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">תחומי התמחות ושירותים</h2>
+            <h2 className="text-4xl font-bold mb-4">למי זה מתאים?</h2>
             <p className="text-xl text-muted-foreground">
-              ליווי מקצועי ואישי בתחומים מגוונים
+              הטיפול מספק מענה למגוון רחב של אתגרים רגשיים ונפשיים
             </p>
           </div>
 
@@ -52,9 +58,9 @@ const Services = () => {
                   </div>
                   <CardTitle className="text-2xl">{service.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
+                {/* <CardContent>
                   <p className="text-foreground/70 text-lg">{service.description}</p>
-                </CardContent>
+                </CardContent> */}
               </Card>
             ))}
           </div>
