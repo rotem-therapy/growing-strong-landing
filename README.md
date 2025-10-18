@@ -63,6 +63,10 @@ This project is built with:
 ## How can I deploy this project?
 
 Simply open [Lovable](https://lovable.dev/projects/72b55837-1d1d-4cf6-9ddd-bb4fca77856c) and click on Share -> Publish.
+```sh
+npm install --save-dev gh-pages
+npx gh-pages -d dist
+```
 
 ## Can I connect a custom domain to my Lovable project?
 
