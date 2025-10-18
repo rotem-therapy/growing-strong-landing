@@ -8,51 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 30 45% 97%;
-    --foreground: 25 30% 25%;
+    --background: 35 40% 98%;
+    --foreground: 200 25% 20%;
 
-    --card: 35 50% 99%;
-    --card-foreground: 25 30% 25%;
+    --card: 0 0% 100%;
+    --card-foreground: 200 25% 20%;
 
-    --popover: 35 50% 99%;
-    --popover-foreground: 25 30% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 25% 20%;
 
-    --primary: 25 70% 50%;
-    --primary-foreground: 35 50% 99%;
+    --primary: 180 45% 55%;
+    --primary-foreground: 0 0% 100%;
     
-    --primary-soft: 30 85% 94%;
-    --primary-glow: 25 80% 65%;
+    --primary-soft: 180 50% 92%;
+    --primary-glow: 180 60% 70%;
 
-    --secondary: 160 45% 60%;
-    --secondary-foreground: 35 50% 99%;
+    --secondary: 150 40% 75%;
+    --secondary-foreground: 150 50% 20%;
     
-    --accent: 35 90% 65%;
-    --accent-foreground: 25 40% 20%;
+    --accent: 45 90% 75%;
+    --accent-foreground: 45 60% 25%;
     
-    --soft-pink: 345 75% 90%;
-    --soft-yellow: 40 95% 88%;
-    --soft-mint: 160 60% 88%;
+    --soft-pink: 340 60% 92%;
+    --soft-yellow: 45 100% 95%;
+    --soft-mint: 150 50% 95%;
 
-    --muted: 30 40% 94%;
-    --muted-foreground: 25 20% 45%;
+    --muted: 180 30% 96%;
+    --muted-foreground: 200 15% 50%;
 
     --destructive: 0 70% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 30 35% 88%;
-    --input: 30 35% 90%;
-    --ring: 25 70% 50%;
+    --border: 180 25% 90%;
+    --input: 180 25% 90%;
+    --ring: 180 45% 55%;
 
-    --radius: 1.2rem;
+    --radius: 1rem;
     
-    --gradient-warm: linear-gradient(135deg, hsl(30 90% 92%), hsl(345 80% 88%), hsl(25 75% 85%));
-    --gradient-cool: linear-gradient(135deg, hsl(160 55% 90%), hsl(180 50% 88%), hsl(170 60% 85%));
-    --gradient-hero: linear-gradient(135deg, hsl(345 75% 90%) 0%, hsl(30 85% 90%) 40%, hsl(160 55% 88%) 100%);
+    --gradient-warm: linear-gradient(135deg, hsl(var(--soft-yellow)), hsl(var(--soft-pink)));
+    --gradient-cool: linear-gradient(135deg, hsl(var(--primary-soft)), hsl(var(--soft-mint)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-soft)) 0%, hsl(var(--soft-mint)) 50%, hsl(var(--soft-yellow)) 100%);
     
-    --shadow-soft: 0 12px 48px -12px hsl(25 60% 50% / 0.18);
-    --shadow-card: 0 6px 24px -6px hsl(25 60% 50% / 0.12);
+    --shadow-soft: 0 10px 40px -10px hsl(var(--primary) / 0.15);
+    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.1);
     
-    --transition-smooth: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
