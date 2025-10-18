@@ -23,9 +23,6 @@ const Hero = () => {
             טיפול רגשי ל<br />
             ילדים, נוער ומבוגרים
           </h1>
-          <p className="text-2xl md:text-3xl mb-8 text-foreground/80">
-            לגדול בביטחון, להרגיש מובנים
-          </p>
           <p className="text-xl mb-12 text-foreground/70 max-w-2xl mx-auto">
             ליווי אישי, חם ומקצועי לילדים, נוער ומשפחות במסע של צמיחה רגשית והתפתחות אישית
           </p>
