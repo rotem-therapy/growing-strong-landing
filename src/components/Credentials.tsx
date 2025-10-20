@@ -26,12 +26,12 @@ const credentials = [
         description: "בטיפול באוטיזם, טראומה ובמצבי משבר",
         color: "bg-primary-soft",
     },
-    {
-        icon: UsersIcon,
-        title: "רכזת תחום רגשי",
-        description: "במרכז לגיל הרך",
-        color: "bg-primary-soft",
-    },
+    // {
+    //     icon: UsersIcon,
+    //     title: "רכזת תחום רגשי",
+    //     description: "במרכז לגיל הרך",
+    //     color: "bg-primary-soft",
+    // },
 ];
 
 const Credentials = () => {
@@ -47,7 +47,7 @@ const Credentials = () => {
     </p>
     </div>
 
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
         {credentials.map((credential, index) => {
                 const Icon = credential.icon;
                 return (

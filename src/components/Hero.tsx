@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/therapy-room.jpg";
+// import heroImage from "@/assets/therapy-room.jpg";
+import heroImage from "@/assets/background_nature.jpg";
 import { Share2 } from "lucide-react";
 
 const Hero = () => {
